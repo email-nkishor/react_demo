@@ -28,7 +28,10 @@ git clone URL
   git pull URL 
 
 ## Git Branch Command
-git branch  
+git branch 
+
+## Switching branches 
+git checkout
 
 ## Git Merge Command
 git merge BranchName  
