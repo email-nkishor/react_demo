@@ -1,10 +1,17 @@
 import './App.css';
+import MyComponent from './MyComponent'
+import TodoList from './TodoList/TodoList'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Nand Kishor!!!</h1>
-      <h2>Create new react project...</h2>
+      <h1>Higher Order Component Example</h1>
+      <MyComponent customData={'Nand Kishor'}/>
+      <h2>..............................</h2>
+      <br/>
+      <div>
+      <TodoList />
+    </div>
     </div>
   );
 }
